@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Switch
+        android:id="@+id/autoBlockSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Otomatik Engelleme"
+        android:padding="16dp"/>
+
+    <Switch
+        android:id="@+id/notificationSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bildirimleri Göster"
+        android:padding="16dp"/>
+
+    <Switch
+        android:id="@+id/modelUpdateSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Otomatik Model Güncelleme"
+        android:padding="16dp"/>
+
+</LinearLayout> 
